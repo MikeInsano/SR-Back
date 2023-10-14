@@ -1,0 +1,310 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Header */
+.fdo{
+  display: flex;
+  background-image: linear-gradient(to right, #f93b2a, #3afc8b, #23b2f9, #3afc8b, #f93b2a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.logo{
+  margin-left: 20px;
+  display: flex;
+}
+.inf{
+  display: flex;
+  margin-left: 38%;
+  padding: 5px;
+  margin-top: 18px;
+}
+.inf p{
+  margin-left: 50px;
+}
+.ajuste{
+  width: 25px;
+  height: 25px;
+}
+.sesion{
+  background-color: aqua;
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 12px;
+  position: absolute;
+  margin-left: 88%;
+  background-image: linear-gradient(to right, transparent, red, orange, yellow, green, cyan, blue, indigo, violet, transparent);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+.sesion a{
+  margin-left: 7px;
+}
+/* Terminos y condiciones */
+.fondo{
+  background-image: url(./IMG/condiciones.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: xx-large;
+  color: white;
+}
+.fondo h1{
+  margin-bottom: -2.5%;
+}
+.fondo h1, h4{
+  margin-left: 10%;
+  padding: 20px;
+}
+.centro{
+  margin: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.centro summary{
+  font-size: 25px;
+  border-bottom: 1px rgb(168, 168, 168) solid;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  list-style: none;
+}
+.secc1 h5, .secc2 h5,
+.secc3 h5, .secc4 h5{
+  margin-top: 10px;
+}
+.secc1 p, .secc2 p,
+.secc3 p, .secc4 p{
+  margin-top: 5px;
+}
+.secc1 ul li, .secc2 ul li,
+.secc3 ul li, .secc4 ul li{
+  margin-left: 40px;
+}
+/* Opiniones */
+.display{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+.conve{
+  margin-left: 20%;
+}
+.titulo-convencional h4{
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 20px;
+  color: black;
+}
+.conve img{
+  width: 300px;
+}
+.lujo{
+  margin-left: 15%;
+}
+.titulo-lujo h4{
+  text-align: center;
+  border: 1px black solid;
+  width: 50%;
+  margin-left: 23%;
+  border-radius: 20px;
+  color: black;
+}
+.lujo img{
+  width: 400px;
+}
+/* ESTRELLAS */
+.container .star input,
+.ctn-star .rate-star input {
+  display: none;
+}
+.star label,
+.rate-star label {
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+.star label:hover,
+.rate-star label:hover,
+.star label:hover ~ label,
+.rate-star label:hover ~ label {
+  color: gold;
+}
+.star input:checked ~ label,
+.rate-star input:checked ~ label {
+  color: gold;
+}
+.star input#rate-5:checked ~ label,
+.star input#rate-4:checked ~ label,
+.star input#rate-3:checked ~ label,
+.star input#rate-2:checked ~ label,
+.star input#rate-1:checked ~ label,
+.rate-star input#star-5:checked ~ label,
+.rate-star input#star-4:checked ~ label,
+.rate-star input#star-3:checked ~ label,
+.rate-star input#star-2:checked ~ label,
+.rate-star input#star-1:checked ~ label {
+  color: #fe7;
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+/* COMENTARIOS */
+.lbl-ttl{
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 2px 1px rgb(40, 248, 255);
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 6%;
+}
+.lbl-ttlo{
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 1px 2px 1px rgb(40, 248, 255);
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 7%;
+}
+.form-floating textarea{
+  margin-top: 70px;
+  width: 270px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.form-floating button{
+  margin-left: 8px;
+  position: absolute;
+  margin-top: 67px;
+}
+.list-comm{
+  list-style-type: none;
+  margin-top: 25px;
+}
+.list-comm li{
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(139, 139, 139);
+  padding-bottom: 20px;
+  margin-left: 7px;
+  white-space: pre-wrap;
+}
+/* PAGOS */
+.fnds{
+  background-image: url(./IMG/tarjeta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: xx-large;
+}
+.fnds h1{
+  margin-bottom: -2.5%;
+  margin-left: 10%;
+  padding: 20px;
+  color: black
+}
+.fnds h4{
+  margin-left: 10%;
+  padding: 20px;
+  color: black;
+}
+.cto{
+  margin-top: 70px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.info{
+  margin-bottom: 70px;
+}
+.info p{
+  margin-top: 22px;
+}
+.tarjetas{
+  border-top: 1px rgb(168, 168, 168) solid;
+  padding-top: 50px;
+}
+.titulo{
+  display: flex;
+}
+.titulo img{
+  width: 3%;
+  height: 3%;
+}
+.titulo h3{
+  margin-left: 10px;
+  align-items: center;
+}
+.tarjetas{
+  margin-bottom: 20px;
+}
+.tarjetas p{
+  margin-top: 22px;
+}
+.tarjetas ul li{
+  margin-left: 50px;
+}
+.dispositivos{
+  display: flex;
+}
+.phone img{
+  width: 30%;
+  height: 75%;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.lap img{
+  width: 40%;
+  height: 80%;
+  margin-top: 13px;
+  margin-left: -15px;
+}
+/* NOSOTROS */
+.columnas{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  margin-top: 40px;
+}
+.conocenos h4{
+  background-color: rgb(34, 34, 34);
+  border: 1px black solid;
+  border-radius: 20px;
+  width: 38%;
+  margin-bottom: 15px;
+  margin-left: 25%;
+}
+.conocenos img{
+  width: 65%;
+  margin-top: 30px;
+  margin-left: 40px
+}
+.objetivos{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.objetivos h4{
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 20px;
+  width: 60%;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+.objetivos ul li{
+  margin-bottom: 5px;
+}
+.propositos h4{
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 20px;
+  width: 30%;
+  margin-bottom: 15px;
+  margin-left: 29%;
+}
+.propositos p{
+  margin-bottom: 10px;
+}
