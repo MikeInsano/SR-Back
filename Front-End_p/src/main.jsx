@@ -9,7 +9,7 @@ import Nosotros from './paginas/Nosotros.jsx';
 import Servicio from './paginas/Servicio.jsx';
 import Opiniones from './paginas/Opiniones.jsx';
 import Pago from './paginas/Pago.jsx';
-import IndexUser from './Pages-Dash/indexUser.jsx';
+import IndexUser from './Pages-Dash/CommentsList.jsx';
 import FormularioDatos from './paginas/FormularioDatos.jsx';
 import Login from './paginas/Loguin.jsx';
 import Signup from './paginas/Signup.jsx';

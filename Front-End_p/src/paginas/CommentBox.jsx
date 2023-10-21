@@ -4,7 +4,11 @@ import './styles.css'
 
 const CommentBox = () => {
     const [comment, setComment] = useState('');
-    const [commentsList, setCommentsList] = useState([]);
+    const [commentsList, setCommentsList] = useState(() => {
+        // Recuperar comentarios de localStorage al cargar la página
+        const storedComments = localStorage.getItem('comments');
+        return storedComments ? JSON.parse(storedComments) : [];
+    });
     const textareaRef = useRef(null);
     const formRef = useRef(null);
 
@@ -19,8 +23,9 @@ const CommentBox = () => {
     };
 
     useEffect(() => {
-        handleTextareaResize();
-    }, [comment]);
+        // Almacenar comentarios en localStorage cuando commentsList cambie
+        localStorage.setItem('comments', JSON.stringify(commentsList));
+    }, [commentsList]);
 
     const handleSubmit = async (e) => {
         e.preventDefault();

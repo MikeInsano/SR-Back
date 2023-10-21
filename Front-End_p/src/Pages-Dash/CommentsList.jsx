@@ -91,7 +91,7 @@ const CommentsList = () => {
 
     return (
         <div>
-            <NavDash/>
+            {/* <NavDash/> */}
             <Container className="ctn-table">
                 <h1>Lista de Comentarios</h1>
                 <Table>
