@@ -17,15 +17,15 @@ import Admin from './paginas/AdminPage.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Login />
+    element: <Home />
   },
   {
     path: '/Signup',
     element: <Signup />
   },
   {
-    path: '/Home',
-    element: <Home />
+    path: '/Login',
+    element: <Login />
   },
   {
     path: '/Nosotros',

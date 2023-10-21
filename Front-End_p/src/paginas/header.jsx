@@ -11,7 +11,7 @@ class Header extends React.Component{
                     <h1>System Reservation</h1>
                     <h4>¡BUENA ELECCION!</h4>
                     <div className="añañin">
-                        <Link to="/Home">INICIO</Link>
+                        <Link to="/">INICIO</Link>
                         <Link to="/Opiniones">OPINIONES</Link>
                         <Link to="/Nosotros">NOSOTROS</Link>
                     </div>
